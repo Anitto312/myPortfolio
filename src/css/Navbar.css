@@ -15,7 +15,7 @@ nav {
     justify-content: center;
 }
 
-ul {
+nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
@@ -23,7 +23,7 @@ ul {
     margin: 0;
 }
 
-li {
+nav li {
     list-style-type:none ;
     color: #E0E0E0;
     font-size: 18px;
@@ -31,6 +31,15 @@ li {
     cursor: pointer;
     padding: 10px 40px;
     /* transition: background 0.3s ease-in-out, color 0.3s ease-in-out; */
+}
+.linktag{
+    text-decoration: none;
+    list-style-type:none ;
+    color: #E0E0E0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 40px;
 }
 
 li:hover {
